@@ -2,5 +2,25 @@ body {
     font-family: cursive;
     text-decoration: none;
     color: #000000;
-    background-color: #F5EF9A
+}
+
+.h {
+    display: flex;
+    width: 70px;
+    height: 85px;
+}
+header p{
+    position: relative;
+    top: 8px;
+    font-size: 25px; 
+}
+nav {
+    background-color: #F5EF9A;
+    display: flex;
+
+}
+
+.bu-h{
+    background-color: red;
+    height: ;
 }
