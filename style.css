@@ -16,11 +16,30 @@ header p{
 }
 nav {
     background-color: #F5EF9A;
-    display: flex;
-
 }
 
+header {
+    display: flex;
+    justify-content: space-between
+}
 .bu-h{
     background-color: red;
     height: ;
+}
+.c {
+    position: relative;
+    top: 40px;
+    left: 80px;
+    width: 500px;
+    height: 350px;
+}
+.b {
+    position: relative;
+    background-color: white;
+    left: 550px;
+    bottom: 200px;
+    padding: 50px 100px 50px 100px;
+}
+.wel {
+    background-color: #F5EF9A;
 }
