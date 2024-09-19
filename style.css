@@ -32,23 +32,137 @@ header img {
 }
 .c {
     position: relative;
-    top: 40px;
+    top: 100px;
     left: 80px;
-    width: 500px;
+    width: 700px;
     height: 350px;
     justify-content: space-between;
 }
 .b {
     position: relative;
     background-color: white;
-    left: 550px;
-    bottom: 200px;
-    padding: 50px 100px 50px 100px;
-
+    left: 450px;
+    bottom: 250px;
+    padding: 40px 80px 40px 80px;
+    width: 600px;
+    height: 250px;
 }
 .wel {
     background-color: #F5EF9A;
 }
-/* .i{
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #FF6F61;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    background-color: #FFF0F5; /* light pink */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
     position: relative;
-} */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.recipe-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-item h3 {
+    color: #FF6F61;
+    margin-top: 10px;
+}
+
+.recipe-item .description {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.recipe-item:hover .description {
+    opacity: 1;
+}
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #FF6F61;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    background-color: #FFF0F5; /* light pink */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.recipe-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-item h3 {
+    color: #FF6F61;
+    margin-top: 10px;
+}
+
+.recipe-item .description {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.recipe-item:hover .description {
+    opacity: 1;
+}
+footer {
+    background-color: #FADADD;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+    text-align: center;
+}
