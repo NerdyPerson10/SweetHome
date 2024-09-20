@@ -6,7 +6,6 @@ header {
     display: flex;
     align-items: center;
     background-color: #fdd4c4;
-    margin: 0px 10px 0px 10px;
 }
 header p {
     font-size: 30px;
@@ -33,22 +32,23 @@ header img {
 .c {
     position: relative;
     top: 100px;
-    left: 80px;
-    width: 700px;
-    height: 350px;
-    justify-content: space-between;
+    left: 200px;
+    width: 800px;
+    height: 400px;
 }
 .b {
-    position: relative;
+    position: absolute;
     background-color: white;
-    left: 450px;
-    bottom: 250px;
-    padding: 40px 80px 40px 80px;
+    left: 500px;
+    top: 400px;
+    padding: 20px 80px 20px 80px;
     width: 600px;
     height: 250px;
 }
 .wel {
     background-color: #F5EF9A;
+    height: 650px;
+
 }
 .gallery {
     padding: 20px;
